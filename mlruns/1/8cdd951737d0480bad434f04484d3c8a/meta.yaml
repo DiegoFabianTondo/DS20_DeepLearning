@@ -2,7 +2,7 @@ artifact_uri: file:///users/dtondo/DS2020/DS20_DeepLearning/mlruns/1/8cdd951737d
 end_time: 1616646157295
 entry_point_name: ''
 experiment_id: '1'
-lifecycle_stage: active
+lifecycle_stage: deleted
 name: ''
 run_id: 8cdd951737d0480bad434f04484d3c8a
 run_uuid: 8cdd951737d0480bad434f04484d3c8a

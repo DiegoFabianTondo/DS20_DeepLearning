@@ -1,0 +1,17 @@
++ '[' '!' -d ./data/meli-challenge-2019/ ']'
++ '[' '!' -f ./data/SBW-vectors-300-min5.txt.gz ']'
++ export CUDA_HOME=/opt/cuda/10.1
++ CUDA_HOME=/opt/cuda/10.1
++ export PATH=/opt/cuda/10.1/bin:/users/dtondo/.local/bin:/users/dtondo/miniconda3/bin:/users/dtondo/miniconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/users/dtondo/.local/bin
++ PATH=/opt/cuda/10.1/bin:/users/dtondo/.local/bin:/users/dtondo/miniconda3/bin:/users/dtondo/miniconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/users/dtondo/.local/bin
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ python -m experiment.mlp --train-data ./data/meli-challenge-2019/spanish.train.jsonl.gz --token-to-index ./data/meli-challenge-2019/spanish_token_to_index.json.gz --pretrained-embeddings ./data/SBW-vectors-300-min5.txt.gz --language spanish --validation-data ./data/meli-challenge-2019/spanish.validation.jsonl.gz --embeddings-size 300 --hidden-layers 256 128 --dropout 0.3
+Traceback (most recent call last):
+  File "/users/dtondo/miniconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/users/dtondo/miniconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/users/dtondo/DS2020/DS20_DeepLearning/experiment/mlp.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

@@ -1,0 +1,15 @@
+artifact_uri: file:///users/dtondo/DS2020/DS20_DeepLearning/mlruns/1/cf0d0697f8ab462a80a30d4c8b0b3c2a/artifacts
+end_time: 1617111114983
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: cf0d0697f8ab462a80a30d4c8b0b3c2a
+run_uuid: cf0d0697f8ab462a80a30d4c8b0b3c2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1617110421273
+status: 3
+tags: []
+user_id: dtondo
